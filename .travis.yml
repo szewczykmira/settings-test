@@ -6,7 +6,7 @@ python:
 install:
   - python setup.py install
   - pip install pytest-cov
-script: py.test --cov=django_prices_vatlayer
+script: py.test
 
 env:
   global:
