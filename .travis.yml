@@ -10,7 +10,7 @@ script: py.test
 
 env:
   global:
-    - DATABASE_URL='postgres://postgres@localhost:5432/django-prices-vatlayer'
+    - DATABASE_URL='postgres://postgres@localhost:5432/settings'
 
 services:
   - postgresql
